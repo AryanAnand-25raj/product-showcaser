@@ -4,7 +4,7 @@ export const products = [
     name:"macbook",
     description:"High performance laptops for the professionals,students,college for increasing the productivity",
     price:90000,
-    image:"/images/laptop_mac.jpg",
+    image:"images/laptop_mac.jpg",
     IsOnSale:true,
     salePrice:72000
     },
@@ -13,7 +13,7 @@ export const products = [
     name:"Iphone",
     description:"High-end smartphone with advanced features and sleek design",
     price:80000,
-    image:"/images/iphone.jpg",
+    image:"images/iphone.jpg", 
     IsOnSale:false
     },
     {
@@ -21,7 +21,7 @@ export const products = [
     name:"Airpods Max",
     description:"premium noise-cancelling headphones",
     price:50000,
-    image:"/images/Airpods_max.jpg",
+    image:"images/Airpods_max.jpg",
     IsOnSale:false,
     }
 ]
