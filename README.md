@@ -68,3 +68,38 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+// react everything is components //Every react component must return something (jsx) 
+  //jsx is a syntax extension for javascript that looks like html but is not html, it is used to describe the UI of a react component
+  
+ /* const ProductsName = "Macbook";
+  const ProductPrice = 90000;
+  const ProductDescription = "High-performance laptop for professionals,students,college for increase the productivity";
+  const IsOnSale = true;
+
+  const ProductImage = "/images/laptop_mac.jpg";
+  const ProductId ="laptop-001"
+  
+  {how we will display all these product by using the map method };*/
+
+ /*
+ 
+ <div className="App">
+      <h1>Product Showcaser</h1>
+      <div className="product-card">
+        <img src="/images/laptop_mac.jpg" alt="Laptop_image"/>
+        <h2>Macbook</h2>
+        <p>High-performance laptop for professionals,students,college for increase the productivity</p>
+        <span className="price">₹90,000</span>
+        <button>Add-To-card</button>
+        <img src="/images/iphone.jpg" alt="Iphone-img"/>
+        <h2>Iphone</h2>
+        <p>High-end smartphone with advanced features and sleek design</p>
+        <span className="price">₹80,000</span>
+        <button>Add-To-card</button>   This is Traditional way of making the product showcaser
+      </div>
+    </div> */
+    // What is we have showcase many products 
+    //So we will use the concepts of props 
+    //Props are like function parameters we can (function parameters are used  to pass data to a function)
+    //pass data to a components using the props and we can use that data to render the Ui of the components 
